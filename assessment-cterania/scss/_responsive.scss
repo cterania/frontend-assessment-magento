@@ -1,0 +1,34 @@
+@media screen and (max-width: 767px) {
+    .banner {  
+        &__heading {
+            font-size: 2.875rem;
+        }
+    
+        &__subheading {
+            font-size: 1.625rem;
+        }
+    }
+
+    .menu {
+        &__list {
+            column-gap: $sp-md;
+        }
+    }
+
+    .tab {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .accordion {
+        display: none;
+    }
+    .grid {
+        @include flex();
+
+        &__item {
+            flex: 1;
+        }
+    }
+}

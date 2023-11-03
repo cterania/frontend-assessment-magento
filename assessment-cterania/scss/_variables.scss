@@ -1,0 +1,30 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+// Typhography
+$body-font: 'Lato', sans-serif;
+$h1-heading-size: 4rem; // 64px
+$h2-heading-size: 2.125rem; // 34px
+$default-font-size: 1rem; // 16px
+
+@media screen and (min-width: 980px) {
+    $h1-heading-size: 2rem;
+}
+
+// Font Weight
+$font-regular: 400;
+$font-semi-bold: 700;
+$font-bold: 900;
+
+// Colors
+$primary-color: #030303;
+$secondary-color: #FFFFFF;
+$text-color: #333333;
+$shadow-color: #CCCCCC;
+$btn-shadow-color: #05445E;
+
+// Spacing
+$sp-sm: 1rem;
+$sp-md: 1.5rem;
+$sp-lg: 2.5rem;
+$sp-xl: 3rem;
