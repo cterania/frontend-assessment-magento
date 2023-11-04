@@ -41,6 +41,7 @@
 <b><mark>Important Note: </mark>Kindly load the project through a web server since loading it via file:// won't have the permissions to load a json file.</b>
 ---
 <br>
+<br>
 <b>Live Link:</b> <a href="https://cterania.github.io/assessment-cterania/">Frontend Assessment - CTerania</a>
 <br>
 <h3>Bonus Question</h3>
