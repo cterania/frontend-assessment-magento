@@ -1,40 +1,49 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. For styling, please use LESS, SASS or CSS without a UI library such as Bootstrap. For JavaScript, please use jQuery, KnockoutJS or vanilla JS. Along with following best practices, there will be bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+<h2>Magento Frontend Developer Technical Assessment </h2>
+<p>I have completed the 2 exercises and added a folder named <b>assessment-cterania</b> inside this repository.</p>
 
-Exercise 1
----
-Build a responsive page based on the designs.
+<h3>Folder Structure</h3>
+<pre><code><b>assessment-cterania</b>
+    │   exercise-1.html
+    │   exercise-2.html
+    │   index.html
+    │
+    ├───<b>css</b>
+    │       styles.css
+    │       styles.css.map
+    │
+    ├───<b>data</b>
+    │       data.json
+    │
+    ├───<b>img</b>
+    │       banner-1920x650.png
+    │       banner-600x600.png
+    │       grid-400x300.png
+    │
+    ├───<b>js</b>
+    │       script.js
+    │
+    └───<b>scss</b>
+            styles.scss
+            _base.scss
+            _main.scss
+            _responsive.scss
+            _variables.scss
+</code></pre>
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive and fluid.
-
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
-
-##### Assets
-* Desktop banner - https://via.placeholder.com/1920x650
-* Mobile banner - https://via.placeholder.com/600x600
-* Content images - https://via.placeholder.com/400x300
-
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
-
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
-
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
-
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+<p>The main root folder is <b>assessment-cterania</b> which contains all the project files and folders and also the main page <b>index.html</b>. Then we have the <b>css</b> folder which contains the common CSS files available to all pages within the project, some of the main files are as follows:</p>
+<ol>
+    <li><b>data</b> - This folder is used to hold data files containing page specific information</li>
+    <li><b>img</b> - This contains all the images</li>
+    <li><b>js</b> - This folder contains the script file (<i>script.js</i>) that runs on Exercise-2 page to implement the Tabs and Accordion</li>
+    <li><b>scss</b> - <br>This folder contains all the SCSS files. In there, you can find the reset file, typographic rules, global variables, mixins, styles for commonly used HTML elements and some page-specific styles.<br><br>I am using VS Code as my code editor and installed <b>Live SASS Compiler</b> extension to compile SASS file.</li>
+</ol>
+<h3>Bonus Question</h3>
+<p>Explain why the result of <code>(&#39;b&#39; + &#39;a&#39; + + &#39;a&#39; + &#39;a&#39;).toLowerCase()</code> is <code>banana</code>.</p>
+<h3>Solution:</h3>
+<p>Breaking down the expression <code>(&#39;b&#39; + &#39;a&#39; + + &#39;a&#39; + &#39;a&#39;)</code> into its components. then applying <code>.toLowerCase()</code> function.</p>
+<ol>
+    <li><code>'b' + 'a'</code> Returns 'ba'. (string concatenation)</li>
+    <li><code>'ba' + + 'a'</code> Returns <code>NaN</code> (Not a Number). The second <code>+</code> is a unary operator which tries to convert the value <code>'a'</code> into a number, but it cannot be converted.</li>
+    <li><code>'baNaN' + 'a'</code>returns <code>baNaNa</code>. (string concatenation)</li>
+    <li>Returned <code>banana</code> after applying .toLowerCase() function to <code>baNaNa</code></li>
+</ol>
