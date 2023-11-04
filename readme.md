@@ -1,5 +1,5 @@
 <h2>Magento Frontend Developer Technical Assessment </h2>
-<p>I have completed the two front-end exercises and the project files inside this repository.</p>
+<p>I have completed the two front-end exercises and added the project files inside this repository.</p>
 
 <h3>Folder Structure</h3>
 <pre><code><b>assessment-cterania</b>
