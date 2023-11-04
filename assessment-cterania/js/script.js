@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     // Fetching data from  JSON file
-    $.getJSON("../Magento Frontend Assessment - Christian Terania/data/data.json", function(data) {
+    $.getJSON("../assessment-cterania/data/data.json", function(data) {
         
         data.forEach((key, value) => {
 

@@ -1,5 +1,5 @@
 <h2>Magento Frontend Developer Technical Assessment </h2>
-<p>I have completed the 2 exercises and added a folder named <b>assessment-cterania</b> inside this repository.</p>
+<p>I have completed the two front-end exercises and the project files inside this repository.</p>
 
 <h3>Folder Structure</h3>
 <pre><code><b>assessment-cterania</b>
@@ -30,13 +30,16 @@
             _variables.scss
 </code></pre>
 
-<p>The main root folder is <b>assessment-cterania</b> which contains all the project files and folders and also the main page <b>index.html</b>. Then we have the <b>css</b> folder which contains the common CSS files available to all pages within the project, some of the main files are as follows:</p>
+<p>The root folder is <b>assessment-cterania</b> which contains all the project files and folders and also the main page (<b>index.html</b>). Then we have the <b>css</b> folder which contains the CSS files available to all pages within the project, some of the main files are as follows:</p>
 <ol>
     <li><b>data</b> - This folder is used to hold data files containing page specific information</li>
     <li><b>img</b> - This contains all the images</li>
     <li><b>js</b> - This folder contains the script file (<i>script.js</i>) that runs on Exercise-2 page to implement the Tabs and Accordion</li>
-    <li><b>scss</b> - <br>This folder contains all the SCSS files. In there, you can find the reset file, typographic rules, global variables, mixins, styles for commonly used HTML elements and some page-specific styles.<br><br>I am using VS Code as my code editor and installed <b>Live SASS Compiler</b> extension to compile SASS file.</li>
+    <li><b>scss</b> - This folder contains all the SCSS files. In there, you can find the reset file, typographic rules, global variables, mixins, styles for commonly used HTML elements and some page-specific styles.<br><br>I am using VS Code as my code editor and installed <b>Live SASS Compiler</b> extension to compile SASS file.</li>
 </ol>
+
+<b><span style="background-color: #ff7979;">Important Note:</span> Kindly load the project through a web server since loading it via file:// won't have the permissions to load a json file.</b>
+
 <h3>Bonus Question</h3>
 <p>Explain why the result of <code>(&#39;b&#39; + &#39;a&#39; + + &#39;a&#39; + &#39;a&#39;).toLowerCase()</code> is <code>banana</code>.</p>
 <h3>Solution:</h3>
