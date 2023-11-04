@@ -38,7 +38,7 @@
     <li><b>scss</b> - This folder contains all the SCSS files. In there, you can find the reset file, typographic rules, global variables, mixins, styles for commonly used HTML elements and some page-specific styles.<br><br>I am using VS Code as my code editor and installed <b>Live SASS Compiler</b> extension to compile SASS file.</li>
 </ol>
 
-<b><span style="background-color: #ff7979;">Important Note:</span> Kindly load the project through a web server since loading it via file:// won't have the permissions to load a json file.</b>
+<b><mark>Important Note:</mark> Kindly load the project through a web server since loading it via file:// won't have the permissions to load a json file.</b>
 
 <h3>Bonus Question</h3>
 <p>Explain why the result of <code>(&#39;b&#39; + &#39;a&#39; + + &#39;a&#39; + &#39;a&#39;).toLowerCase()</code> is <code>banana</code>.</p>
