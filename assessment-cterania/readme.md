@@ -1,5 +1,5 @@
 <h2>Magento Frontend Developer Technical Assessment </h2>
-<p>I have completed the two front-end exercises and the project files inside this repository.</p>
+<p>I have completed the two front-end exercises and added the project files inside this repository.</p>
 
 <h3>Folder Structure</h3>
 <pre><code><b>assessment-cterania</b>
@@ -37,9 +37,9 @@
     <li><b>js</b> - This folder contains the script file (<i>script.js</i>) that runs on Exercise-2 page to implement the Tabs and Accordion</li>
     <li><b>scss</b> - This folder contains all the SCSS files. In there, you can find the reset file, typographic rules, global variables, mixins, styles for commonly used HTML elements and some page-specific styles.<br><br>I am using VS Code as my code editor and installed <b>Live SASS Compiler</b> extension to compile SASS file.</li>
 </ol>
-
-<b><span style="background-color: #ff7979;">Important Note:</span> Kindly load the project through a web server since loading it via file:// won't have the permissions to load a json file.</b>
-
+---
+<b><mark>Important Note:</mark> Kindly load the project through a web server since loading it via file:// won't have the permissions to load a json file.</b>
+---
 <h3>Bonus Question</h3>
 <p>Explain why the result of <code>(&#39;b&#39; + &#39;a&#39; + + &#39;a&#39; + &#39;a&#39;).toLowerCase()</code> is <code>banana</code>.</p>
 <h3>Solution:</h3>
